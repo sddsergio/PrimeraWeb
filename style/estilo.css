@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    font-family: 'PT Serif', serif;
+}
+
+.nav{
+    margin: 15px  15px;
+}
+
+h1{
+    text-align: center;
+}
+.content{
+    display: inline-flex;
+    font-size: 23px;
+}
+.main{
+    
+    margin-bottom: 10px;
+}
+.p1{
+    width: 500px;
+    margin-left: 250px;
+}
+.p2{
+    width: 500px;
+    
+    margin-left: 150px;
+
+}
+
+.titulo{
+    
+    text-align: center;
+    margin:1em;       
+}
+
+.content{
+    padding: 15px;
+    margin: 2px;
+}
+.cards{
+    display: flex;
+    padding-left: 100PX;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.card1{
+    display: inline-flex;
+    margin: 100px;
+    border: 1px solid black;
+    box-shadow: black 2px 4px 10px;
+    
+}
+.card2{
+    display: inline-flex;
+    margin: 100px;
+    border: 1px solid black;
+    box-shadow: black 2px 4px 10px;
+}
+.card3{
+    display: inline-flex;
+    margin: 100px;
+    border: 1px solid black;
+    box-shadow: black 2px 4px 10px;
+}
+.img{
+    position: relative;
+    justify-content: center;
+    
+    
+}
+
+.foot{
+    text-align: center;
+}
