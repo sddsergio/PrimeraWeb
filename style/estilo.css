@@ -50,17 +50,18 @@ span{
     
 }
 .cards{
+    justify-content: center;
     display: flex;
     padding-left: 100PX;
     margin-top: 10px;
-    object-fit: cover;
+    
+    text-align: center;
 }
 .card1{
     display: inline-flex;
     margin: 100px;
     border: 1px solid black;
-    box-shadow: black 2px 4px 10px;
-    
+    box-shadow: black 2px 4px 10px;    
 }
 .card2{
     display: inline-flex;
@@ -74,14 +75,12 @@ span{
     border: 1px solid black;
     box-shadow: black 2px 4px 10px;
 }
-.img{
-    position: relative;
-    justify-content: center;
-}
+
 .carousel-img{
     max-width: 1200px;
     height: 500px;
-    padding-left: 25%;
+    
+
 }
 .icon{
     font-size: 30px;
@@ -89,6 +88,9 @@ span{
 }
 .card-body{
     font-family: 'PT Sans', sans-serif;
+}
+.carousel-inner{
+    display: inline;
 }
 .foot{
     text-align: center;
@@ -110,8 +112,8 @@ span{
         margin: auto;
     }
     #carouselExampleDark{
-        display: block;
-        max-width: 800px;
+        flex-direction: column;
+        justify-content: center;
     }
         
 }
