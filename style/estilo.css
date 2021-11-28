@@ -109,5 +109,9 @@ span{
     .p1 .p2{
         margin: auto;
     }
+    #carouselExampleDark{
+        display: block;
+        max-width: 800px;
+    }
         
 }
