@@ -18,7 +18,7 @@ h1{
     font-size: 23px;
 }
 .main{
-    
+    box-sizing: border-box;    
     margin-bottom: 10px;
 }
 .p1{
@@ -32,10 +32,10 @@ h1{
 
 }
 
-.titulo{
-    
+h1{
+    font-size: 40px;
     text-align: center;
-    margin:1em;       
+    margin:1em;    
 }
 
 .content{
@@ -44,6 +44,7 @@ h1{
 }
 
 span{   
+    display: block;
     font-size: 30px;
     
 }
@@ -75,10 +76,31 @@ span{
 .img{
     position: relative;
     justify-content: center;
-    
-    
 }
-
+.carousel-img{
+    max-width: 1200px;
+    height: 500px;
+    padding-left: 25%;
+}
+.icon{
+    font-size: 30px;
+    color: red;
+}
+.card-body{
+    font-family: 'PT Sans', sans-serif;
+}
 .foot{
     text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .main{
+        display:block;
+        width: 100%;
+    }
+    .cards{
+        display: block;
+        max-width: 800px;
+    }
+        
 }
