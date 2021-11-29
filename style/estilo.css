@@ -14,9 +14,10 @@ h1{
 }
 .content{
     display: flex;
+    font-size: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 80%;
-    margin: auto;
+    margin:auto;
     padding: 15px;
     justify-content: center;
 }
@@ -27,19 +28,10 @@ span{
     display: block;
     text-align: center;
 }
-.content__p1{
-    display: inline-table;
-    font-size: 25px;
-    margin: 15px;
-}
-.content__p2{
-    display: inline-table;
-    font-size: 25px;
-    margin: 15px;
-}
+
 .cards{
     text-align: center;
-    margin: 20px;
+    
 }
 .card1{
     display: inline-flex;
@@ -47,20 +39,16 @@ span{
     box-shadow: black 2px 4px 10px;
 }
 .card2{
-    margin-right: 50px;
-    margin-left: 50px;
-    font-size: 20.3px;
-    height: 600px;
+    
     display: inline-flex;
     border: 1px solid black;
     box-shadow: black 2px 4px 10px;
 }
 .card3{
-    font-size: 18.5px;
     display: inline-flex;
     border: 1px solid black;
     box-shadow: black 2px 4px 10px;
-    height: 600px; 
+    
 }
 .foot{
     text-align: center;
