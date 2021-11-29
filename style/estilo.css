@@ -2,7 +2,7 @@ body{
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
                 linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
                 linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    
+    font-family: 'Times New Roman', Times, serif;
     
 }
 header{
@@ -13,28 +13,28 @@ h1{
     padding-bottom: 15px;
 }
 .content{
-    padding: 15px 0 15px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    padding: 15px;
     justify-content: center;
 }
 span{
     font-size: 32px;
+    font-weight: 100;
     padding: 10px;
     display: block;
     text-align: center;
 }
 .content__p1{
- 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 28px;
-    
+    display: inline-table;
+    font-size: 25px;
     margin: 15px;
-     
 }
 .content__p2{
-       
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 28px;
-    
+    display: inline-table;
+    font-size: 25px;
     margin: 15px;
 }
 .cards{
@@ -49,12 +49,14 @@ span{
 .card2{
     margin-right: 50px;
     margin-left: 50px;
+    font-size: 20.3px;
     height: 600px;
     display: inline-flex;
     border: 1px solid black;
     box-shadow: black 2px 4px 10px;
 }
 .card3{
+    font-size: 18.5px;
     display: inline-flex;
     border: 1px solid black;
     box-shadow: black 2px 4px 10px;
