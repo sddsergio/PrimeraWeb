@@ -40,7 +40,17 @@ ul li{
     
 }
 .cards{
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     padding:15px;
 }
+.card1{
+    padding: 0 250px 0 250px;
+}
+.carousel-inner{
+    width: 80%;
+    margin: auto;    
+}
+.foot{text-align: center;}
