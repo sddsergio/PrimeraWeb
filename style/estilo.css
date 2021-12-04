@@ -17,6 +17,7 @@ h1{
 }
 
 .content{
+    width: 90%;
     display: flex;
     margin:auto;
     padding: 10px;
@@ -34,10 +35,10 @@ ul li{
 .aside{
     display: flex;
     float: right;
-    font-size: 22px;
-    width: 600px;
+    font-size: 28px;
+    width: 700px;
     height: 500px;
-    
+   
 }
 .cards{
     width: 80%;
