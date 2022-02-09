@@ -9,24 +9,16 @@ header{
 }
 h1{
     text-align: center;
-    padding-bottom: 15px;
+    padding: 15px;
+}
+nav{
+    display: inline-flex;
 }
 article{
     display: flex;
     text-align: center;
 }
-.text1{
-    text-align: left;
-    
-    padding: 15px;
-    font-size: 22px;
-}
-.text2{
-    display: wrap;
-    text-align: left;
-    padding: 15px;
-    font-size: 22px;
-}
+
 span{
     font-size: 32px;
     font-weight: 100;
@@ -64,5 +56,5 @@ span{
 }
 
 @media only screen and (max-width: 800px){
-   
+   # max-width: 800px;
 }
