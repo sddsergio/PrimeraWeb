@@ -25,6 +25,9 @@ span{
     padding: 10px;
     text-align: center;
 }
+.text1 p{
+    margin: auto;
+}
 .cards{
     display: wrap;
     text-align: center;
