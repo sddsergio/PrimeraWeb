@@ -57,6 +57,10 @@ span{
 .foot{
     text-align: center;
 }
+.logo{
+    
+    float: inline-end;
+}
 
 @media only screen and (max-width: 800px){
    # max-width: 800px;
