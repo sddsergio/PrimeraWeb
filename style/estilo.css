@@ -11,14 +11,16 @@ h1{
     text-align: center;
     padding: 15px;
 }
-nav {
-    display: inline-flex;
-}
-
-
 article{
     display: flex;
     text-align: center;
+}
+nav{
+    display: inline-flex;
+}
+.logo{
+    display: inline-flex;
+    float: right;   
 }
 
 span{
