@@ -5,9 +5,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 header{
+    
     background: linear-gradient(skyblue, white, skyblue);
     position: relative;
     z-index: 1;
+}
+nav{
+    margin: auto;   
+    z-index: 10;
+    display: inline-flex;
 }
 h1{
     text-align: center;
@@ -17,10 +23,7 @@ article{
     display: flex;
     text-align: center;
 }
-nav{   
-    z-index: 10;
-    display: inline-flex;
-}
+
 .logo{
     display: inline-flex;
     float: right;   
@@ -31,6 +34,10 @@ span{
     font-weight: 100;
     padding: 10px;
     text-align: left;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .text1 p{
     margin: auto;
