@@ -69,7 +69,9 @@ span{
     display: inline-flex;
     border: 1px solid black;
     box-shadow: black 2px 4px 10px;
-     
+}
+.carousel-item {
+    color: wheat;
 }
 .foot{
     text-align: center;
