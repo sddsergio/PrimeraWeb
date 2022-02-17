@@ -24,11 +24,6 @@ article{
     text-align: center;
 }
 
-.logo{
-    display: inline-flex;
-    float: right;   
-}
-
 span{
     font-size: 32px;
     font-weight: 100;
