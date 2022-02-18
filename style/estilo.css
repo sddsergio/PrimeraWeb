@@ -45,6 +45,19 @@ header nav a:hover{
     border-radius: 50px;
 }
 
+.header2{
+    position: fixed;
+    height: 50px;
+}
+
+.header2 .logo{
+    font-size: 30px;
+}
+
+.header2 nav{
+    line-height: 50px;
+}
+
 .center{
     width: 90%;
     max-width: 1000px;
@@ -65,8 +78,7 @@ header nav a:hover{
 .contenido{
     padding-top: 50px;
     margin: auto;
-    width: 600px;
-    height: 400px;
+   
     overflow: auto;
 }
 
