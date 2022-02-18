@@ -78,6 +78,7 @@ header nav a:hover{
 
 @media only screen and (max-width: 800px){
     .contenido{
-        max-width: 800px;
+        width: 80%;
+        max-width: 600px;
     }
 }
