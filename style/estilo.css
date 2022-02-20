@@ -21,7 +21,10 @@ header .logo{
     line-height: 100px;
     float: left;
     overflow: hidden;
+    font-family: 'Syne Tactile', cursive;
+    text-shadow: 3px 5px #999 ;
 }
+
 header nav{
     float: right;
     line-height: 100px;
@@ -37,7 +40,7 @@ header nav a{
     font-weight: bold;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
-    transition:all 500ms ease:
+    transition:all 500ms ease;
 }
 
 header nav a:hover{
@@ -61,7 +64,10 @@ header nav a:hover{
     
 }
 
-
+p{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .contenido{
     padding-top: 50px;
