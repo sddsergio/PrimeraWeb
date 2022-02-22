@@ -66,8 +66,10 @@ header nav a:hover{
 }
 
 .info{
-    
     margin: 50px;
+}
+.info p{
+    font-size: 22px;
 }
 .article h2 p{
     text-align: left;
