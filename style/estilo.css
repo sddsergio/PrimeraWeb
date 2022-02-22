@@ -4,6 +4,7 @@
 }
 
 body{
+    
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
                 linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
                 linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
@@ -14,6 +15,10 @@ header{
     width: 100%;
     overflow: hidden;
     margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
 }
 
 header .logo{
@@ -54,7 +59,9 @@ header nav a:hover{
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
+    
 }
+
 
 .cards{
     display: inline-flex;
@@ -69,7 +76,7 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.contenido{
+.carousel{
     padding-top: 50px;
     margin: auto;
     width: 80%;
