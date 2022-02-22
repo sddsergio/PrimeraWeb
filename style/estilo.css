@@ -17,18 +17,12 @@ header{
    
 }
 
-h1{
-    display: inline-flex;
+.header{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
     
-    text-align: center;
-   
-    
-}
-h2{
-    text-align: center;
-}
-.article h2 p{
-    text-align: left;
 }
 
 header .logo{
@@ -63,7 +57,6 @@ header nav a:hover{
     border-radius: 50px;
 }
 
-
 .center{
     width: 90%;
     max-width: 1000px;
@@ -72,7 +65,17 @@ header nav a:hover{
     
 }
 
+.info{
+    
+    margin: 50px;
+}
+.article h2 p{
+    text-align: left;
+}
 
+.content{
+    margin-top: 25px;
+}
 .cards{
     display: inline-flex;
     text-align: center;
@@ -81,13 +84,7 @@ header nav a:hover{
     
 }
 
-p{
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .carousel{
-    padding-top: 50px;
     margin: auto;
     width: 80%;
     overflow: auto;
@@ -98,9 +95,8 @@ p{
     margin: auto;
     overflow: auto;
 }
-.foot{
+footer{
     text-align: center;
-    position: static;
 }
 
 
