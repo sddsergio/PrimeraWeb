@@ -10,6 +10,9 @@ body{
     
 }
 
+h1{
+    text-align: center;
+}
 
 header{
     background: linear-gradient(skyblue, white, skyblue);
@@ -70,6 +73,9 @@ header nav a:hover{
 .info p{
     font-size: 22px;
 }
+.info-servicios{
+    display: inline-flex;    
+}
 .article h2 p{
     text-align: left;
 }
@@ -99,7 +105,23 @@ header nav a:hover{
 footer{
     text-align: center;
 }
-
+.service1{
+    display: inline;
+}
+.service1 p{
+    text-align: right;
+}
+#gif{
+    float: right;
+    border: 1px solid yellow;
+    width: 180px;
+    height: 120px;
+}
+#imgservice{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
 
 @media only screen and (max-width: 800px){
     .contenido{
