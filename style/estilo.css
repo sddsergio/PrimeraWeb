@@ -4,9 +4,7 @@
 }
 
 body{
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-color: #40CFFF;
     
 }
 
@@ -108,13 +106,13 @@ footer{
     text-align: right;
 }
 #gif{
-    float: right;
+    float: left;
     border: 1px solid yellow;
     width: 180px;
     height: 120px;
 }
 #imgservice{
-    float: left;
+    float: right;
     width: 150px;
     height: 100px;
 }
