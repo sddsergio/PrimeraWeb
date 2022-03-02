@@ -2,12 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
-
-body{
-    background-color: #40CFFF;
-    
+h1, h2{
+    color: yellowgreen;
 }
 
+body{
+    background-color: rgb(133, 116, 116);
+}
 h1{
     text-align: center;
 }
@@ -62,12 +63,14 @@ header nav a:hover{
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
     
 }
-
-.info{
-    margin: 50px;
+h2{
+    text-align: center;
 }
+
 .info p{
     font-size: 22px;
 }
@@ -86,9 +89,10 @@ header nav a:hover{
 }
 
 .carousel{
+    padding-top: 25px;
     margin: auto;
-    width: 80%;
-    overflow: auto;
+    width: 90%;
+    overflow: ;
 }
 
 .iframe{
@@ -100,7 +104,8 @@ footer{
     text-align: center;
 }
 .service1{
-    display: inline;
+    
+    
 }
 
 #gif{
