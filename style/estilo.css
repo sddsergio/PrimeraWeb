@@ -3,10 +3,14 @@
     padding: 0%;
     font-family: sans-serif;
 }
+body{
+    background-color: skyblue;
+}
 .container{
     background-color: beige;
     margin-bottom: 50px;
     padding-bottom: 50px;
+    overflow: auto;
 }
 header{
     background: linear-gradient(skyblue, white, skyblue);
@@ -78,4 +82,9 @@ footer{
 #imgcity{
     width: 600px;
 }
-
+.cards{
+    margin: 100px 20px;
+}
+.articleserv p{
+    text-align: center;
+}
