@@ -54,13 +54,13 @@ h1{
     width: 90%;
 }
 
-
+.artdos{
+    padding-top: 50px;
+}
 footer{
     text-align: center;
 }
-.artuno{
-    margin-bottom: 50px;
-}
+
 #gif{
     float: left;
     border: 1px solid blue;
@@ -72,12 +72,10 @@ footer{
     float: right;
     border: 1px solid yellow;
     box-shadow: 2px 3px 5px red;
-    margin-bottom: 50px;
+    margin-left: 15px;
 }
 
 #imgcity{
     width: 600px;
 }
-li a{
-    text-decoration: none;
-}
+
