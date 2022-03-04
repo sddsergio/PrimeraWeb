@@ -1,47 +1,34 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: sans-serif;
 }
-h1, h2{
-    color: yellowgreen;
+.container{
+    background-color: beige;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
-
-body{
-    background-color: rgb(133, 116, 116);
-}
-h1{
-    text-align: center;
-}
-
 header{
     background: linear-gradient(skyblue, white, skyblue);
     width: 100%;
     overflow: hidden;
 }
-
 .header{
     width: 90%;
     max-width: 1000px;
-    overflow: hidden;
-    margin: auto;
+    margin: auto;    
 }
-
 header .logo{
     font-size: 50px;
     line-height: 100px;
     float: left;
-    overflow: hidden;
-    font-family: 'Syne Tactile', cursive;
     text-shadow: 3px 5px #999 ;
 }
-
 header nav{
     float: right;
     line-height: 100px;
 }
-
 header nav a{
-    display: inline-block;
     text-decoration: none;
     text-align: center;
     padding: 10px 20px;
@@ -52,78 +39,45 @@ header nav a{
     -o-transition: all 500ms ease;
     transition:all 500ms ease;
 }
-
 header nav a:hover{
     background: mediumseagreen;
     border-radius: 50px;
 }
-
-.center{
-    width: 90%;
-    max-width: 1000px;
-    overflow: hidden;
-    margin: auto;
-    background-color: aliceblue;
-    padding: 10px;
-    
-}
-h2{
+h1{
     text-align: center;
-}
-
-.info p{
-    font-size: 22px;
-}
-.info-servicios{
-    display: inline-flex;    
-}
-.article p{
-    text-align: left;
-}
-.article h2{
-    text-align: center;
-}
-
-.content{
-    margin-top: 25px;
+    margin: 20px;
 }
 
 .carousel{
     padding-top: 25px;
     margin: auto;
     width: 90%;
-    overflow: ;
 }
 
-.iframe{
-    width: 80%;
-    margin: auto;
-    overflow: auto;
-}
+
 footer{
     text-align: center;
 }
-.service1{
-    
-    
+.artuno{
+    margin-bottom: 50px;
 }
-
 #gif{
     float: left;
-    border: 1px solid yellow;
+    border: 1px solid blue;
+    box-shadow: 2px 3px 5px red;
+    margin-right: 15px ;
     width: 180px;
-    height: 120px;
 }
 #imgservice{
     float: right;
     border: 1px solid yellow;
-    width: 180px;
-    height: 120px;
+    box-shadow: 2px 3px 5px red;
+    margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 800px){
-    .contenido{
-        width: 80%;
-        max-width: 600px;
-    }
+#imgcity{
+    width: 600px;
+}
+li a{
+    text-decoration: none;
 }
