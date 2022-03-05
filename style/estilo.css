@@ -11,6 +11,7 @@ body{
     margin-bottom: 50px;
     padding-bottom: 50px;
     overflow: auto;
+    display: flex;
 }
 header{
     background: linear-gradient(skyblue, white, skyblue);
@@ -87,4 +88,18 @@ footer{
 }
 .articleserv p{
     text-align: center;
+}
+aside h2{
+    padding: 10px;
+}
+aside{
+    background-color: gainsboro;
+    float: right;
+    width: 450px;
+    padding: 15px;
+    border: 1px solid blue;
+    box-sizing: content-box;
+}
+.info{
+    float: left;
 }
