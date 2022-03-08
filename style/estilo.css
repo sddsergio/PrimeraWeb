@@ -11,7 +11,6 @@ body{
     margin-bottom: 50px;
     padding-bottom: 50px;
     overflow: auto;
-    display: flex;
 }
 header{
     background: linear-gradient(skyblue, white, skyblue);
@@ -53,19 +52,15 @@ h1{
     margin: 20px;
 }
 
-.carousel{
-    padding-top: 25px;
-    margin: auto;
-    width: 90%;
+.map{
+    width: 400px;
 }
-
 .artdos{
     padding-top: 50px;
 }
 footer{
     text-align: center;
 }
-
 #gif{
     float: left;
     border: 1px solid blue;
@@ -79,27 +74,14 @@ footer{
     box-shadow: 2px 3px 5px red;
     margin-left: 15px;
 }
-
 #imgcity{
     width: 600px;
 }
 .cards{
     margin: 100px 20px;
 }
-.articleserv p{
-    text-align: center;
-}
-aside h2{
-    padding: 10px;
-}
-aside{
-    background-color: gainsboro;
-    float: right;
-    width: 450px;
-    padding: 15px;
-    border: 1px solid blue;
-    box-sizing: content-box;
-}
-.info{
+.infoprincipal{
     float: left;
+    border: 1px solid red;
+    padding: 10px;
 }
