@@ -70,6 +70,9 @@ h1{
 footer{
     text-align: center;
 }
+.contact-icons a img{
+    width: 110px;
+}
 #gif{
     float: left;
     border: 1px solid blue;
